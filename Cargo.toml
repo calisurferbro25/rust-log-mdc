@@ -8,4 +8,8 @@ repository = "https://github.com/sfackler/rust-log-mdc"
 documentation = "https://sfackler.github.io/rust-log-mdc/doc/v0.1.0/log_mdc"
 readme = "README.md"
 
+[features]
+value_serialize = []
+
 [dependencies]
+serde_json = "1.0"
